@@ -6,6 +6,7 @@
 
 ```
 git clone https://github.com/bentatum/izitest.git
+cd izitest
 npm install
 npm start
 ```
