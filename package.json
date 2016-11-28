@@ -1,0 +1,65 @@
+{
+  "name": "izitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "api-bro": "^2.0.0-rc5",
+    "autobind-decorator": "^1.3.3",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "clean-webpack-plugin": "^0.1.10",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.24.1",
+    "moment": "^2.17.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.3.1",
+    "redux-await": "^5.0.1",
+    "redux-devtools": "^3.1.1",
+    "redux-devtools-dock-monitor": "^1.1.0",
+    "redux-devtools-log-monitor": "^1.0.10",
+    "reflexbox": "^2.1.0",
+    "serialize-javascript": "^1.2.0",
+    "standard": "^8.6.0",
+    "standard-loader": "^5.0.0",
+    "superagent": "^3.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --colors --history-api-fallback --display-error-details",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentatum/izitest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bentatum/izitest/issues"
+  },
+  "homepage": "https://github.com/bentatum/izitest#readme",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-decorators-legacy"
+    ]
+  }
+}
